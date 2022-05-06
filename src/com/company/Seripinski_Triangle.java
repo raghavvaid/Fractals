@@ -6,10 +6,9 @@ import java.awt.Container;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-
-public class SquareRose extends JPanel {
+public class Seripinski_Triangle extends JPanel{
     private int levels;
-    public SquareRose(int lev) {
+    public Seripinski_Triangle(int lev) {
         levels = lev;
     }
 
@@ -17,7 +16,6 @@ public class SquareRose extends JPanel {
         super.paintComponent(g);
         int xCenter = getWidth() / 2;
         int yCenter = getHeight() / 2;
-
 
         int [] xcoord = {xCenter - 128, xCenter-128, xCenter + 128, xCenter + 128};
         int [] ycoord = {yCenter-128, yCenter + 128, yCenter + 128, yCenter - 128};
